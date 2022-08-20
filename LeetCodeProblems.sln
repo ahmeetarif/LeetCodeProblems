@@ -5,9 +5,11 @@ VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "array_hashing", "array_hashing", "{924C9BA7-D630-4EF8-8F2B-2986392ADABD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCodeProblems.TwoSum", "array_hashing\LeetCodeProblems.TwoSum\LeetCodeProblems.TwoSum.csproj", "{FCE06B61-2604-44ED-A2CB-1EAD456B2C4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCodeProblems.TwoSum", "array_hashing\LeetCodeProblems.TwoSum\LeetCodeProblems.TwoSum.csproj", "{FCE06B61-2604-44ED-A2CB-1EAD456B2C4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCodeProblems.ContainsDuplicate", "array_hashing\LeetCodeProblems.ContainsDuplicate\LeetCodeProblems.ContainsDuplicate.csproj", "{E869F193-2960-40AD-9D1E-ED576DAE8436}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCodeProblems.ContainsDuplicate", "array_hashing\LeetCodeProblems.ContainsDuplicate\LeetCodeProblems.ContainsDuplicate.csproj", "{E869F193-2960-40AD-9D1E-ED576DAE8436}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCodeProblems.ValidAnagram", "LeetCodeProblems.ValidAnagram\LeetCodeProblems.ValidAnagram.csproj", "{D6A99F37-E6CC-4CE0-BF2D-E4738CB624C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{E869F193-2960-40AD-9D1E-ED576DAE8436}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E869F193-2960-40AD-9D1E-ED576DAE8436}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E869F193-2960-40AD-9D1E-ED576DAE8436}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6A99F37-E6CC-4CE0-BF2D-E4738CB624C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6A99F37-E6CC-4CE0-BF2D-E4738CB624C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6A99F37-E6CC-4CE0-BF2D-E4738CB624C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6A99F37-E6CC-4CE0-BF2D-E4738CB624C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{FCE06B61-2604-44ED-A2CB-1EAD456B2C4E} = {924C9BA7-D630-4EF8-8F2B-2986392ADABD}
 		{E869F193-2960-40AD-9D1E-ED576DAE8436} = {924C9BA7-D630-4EF8-8F2B-2986392ADABD}
+		{D6A99F37-E6CC-4CE0-BF2D-E4738CB624C4} = {924C9BA7-D630-4EF8-8F2B-2986392ADABD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4F81AEEB-DA98-42E6-8B18-30E7A0943085}
